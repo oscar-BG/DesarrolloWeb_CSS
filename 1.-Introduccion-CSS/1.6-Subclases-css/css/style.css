@@ -1,0 +1,10 @@
+/* las calases solo se aplican a los elementos de parrafo*/
+p.center{
+    text-align: center;
+}
+/*La clase solo se aplican a elemenos de h1*/
+h1.titulo{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}

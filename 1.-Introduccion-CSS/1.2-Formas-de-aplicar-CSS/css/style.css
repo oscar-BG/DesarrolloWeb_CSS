@@ -1,0 +1,6 @@
+/* estilos externos tercer nivel de prioridad*/
+h2{
+    /*!important le damos mas prioridad */
+    color: aqua !important;
+    text-align: right;
+}

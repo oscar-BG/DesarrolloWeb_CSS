@@ -1,0 +1,6 @@
+/*Como aplicar el elemto id en HTML*/
+/*<element id="titulo">*/
+#titulo{
+    color: crimson;
+    text-align: center;
+}

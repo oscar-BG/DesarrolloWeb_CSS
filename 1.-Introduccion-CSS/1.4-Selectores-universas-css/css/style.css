@@ -1,0 +1,20 @@
+*{
+    /*Selector universal*/
+    background-color: gold;
+    color: black;
+}
+/*Como aplicar el elemto id en HTML*/
+/*<element id="titulo">*/
+#titulo{
+    color: crimson;
+    text-align: center;
+}
+/*Clases*/
+/*<element class="centrar">*/
+.centrar{
+    text-align: center;
+
+}
+.texto_grande{
+    font-size: 50px;
+}
