@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color: #e6394e;
+}
+/* margin collapse: sucede cuando los margenes superior o inferior de los elemetos se juntan tomando 
+el margen con mayor tamaño
+En este caso el margin de 30px de la caja1 es de mayor rango que de la caja2 con 20px por lo que el
+la caja1 sera la que separe ambos elementos */
+
+.caja1{
+    /* padding var1 = (superior e inferior) var2= (Izquierda y derecha) */
+    padding: 10px 5px;
+    border: 1px solid #457b9d;
+    margin: 30px;
+    background-color: yellow;
+    /* Ancho maximo */
+    max-width: 300px;
+    box-sizing: border-box;
+}
+.caja2{
+    /* padding var1 = (superior e inferior) var2= (Izquierda y derecha) */
+    padding: 10px 5px;
+    border: 1px solid #457b9d;
+    margin: 20px;
+    background-color: yellow;
+    /* Ancho maximo */
+    max-width: 300px;
+    box-sizing: border-box;
+}

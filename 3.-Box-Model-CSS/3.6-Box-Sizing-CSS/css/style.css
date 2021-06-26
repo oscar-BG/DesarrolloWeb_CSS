@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: #e6394e;
+}
+div{
+    /* padding var1 = (superior e inferior) var2= (Izquierda y derecha) */
+    padding: 10px 5px;
+    margin: 20px;
+    background-color: yellow;
+    /* Ancho */
+    width: 300px;
+    /* box-sizing: border-box; */
+}

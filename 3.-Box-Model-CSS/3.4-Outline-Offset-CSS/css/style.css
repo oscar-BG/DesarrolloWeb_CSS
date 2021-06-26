@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: #e6394e;
+}
+div{
+    padding: 10px;
+    border: 15px solid #454545;
+    margin: 20px;
+    background-color: #f1faee;
+    /* Ancho */
+    width: 300px;
+    outline: 10px solid #a8dadc;
+    outline-offset: 10px;
+}

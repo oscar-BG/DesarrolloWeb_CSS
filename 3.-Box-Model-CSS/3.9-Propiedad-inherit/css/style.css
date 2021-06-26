@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color: #e6394e;
+}
+div{
+    /* padding var1 = (superior e inferior) var2= (Izquierda y derecha) */
+    padding: 10px 5px;
+    margin-left: 100px;
+    background-color: yellow;
+    /* Ancho maximo */
+    max-width: 300px;
+    max-height:150px;
+    /* box-sizing: border-box; */
+}
+p.interno{
+    /* La propiedad inherit hereda la propiedad del elemento padre
+        en este caso hereda los 100 px de margin-left del elemento div */
+    margin-left: inherit;
+}
