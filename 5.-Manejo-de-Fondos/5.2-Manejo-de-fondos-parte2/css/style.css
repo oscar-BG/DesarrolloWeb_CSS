@@ -1,0 +1,19 @@
+body{
+    color: cornsilk;
+    /* Colocar una imagen de fondo */
+    background-image: url("../img/fondo.png");
+    /* Para repetir la imagen en horizontal */
+    background-repeat: repeat-x;
+    /* Posicionar la imagen de fondo */
+    background-position: center;
+    /* No mover la imagen con el cursor  */
+    background-attachment: fixed;
+    /* background-attachment: scroll;, para seguirlo con el scroll */
+    /* Colocar todos los atributos */
+    /* background: dodgerblue url("../img/fondo.png") no-repeat right top; */
+
+}
+h1{
+    text-align: center;
+    background-color: dodgerblue;
+}

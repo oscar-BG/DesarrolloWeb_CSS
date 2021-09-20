@@ -1,0 +1,6 @@
+body{
+    /* Colocar una imagen de fondo */
+    background-image: url("../img/fondo.png");
+    /* Para repetir la imagen en horizontal */
+    background-repeat: repeat-x;
+}
