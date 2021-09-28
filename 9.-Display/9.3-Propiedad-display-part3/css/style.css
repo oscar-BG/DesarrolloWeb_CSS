@@ -1,0 +1,31 @@
+h1, div, p{
+    border: 3px solid blueviolet;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px;
+    /* Realiza un salto de linea */
+    display: block;
+
+    /* Acomoda todo en una sola linea */
+    /* display: inline; */
+}
+/* Ocultar elmentos con display */
+h1{
+    display: none;
+}
+/* Oculta elemtos con visibility */
+p{
+    visibility: hidden;
+}
+span{
+    /* Cambias el valor por defecto inline a block */
+    display: block;
+    
+}
+a{
+    /* cambias el valor */
+    display: block;
+}
+li{
+    display: inline;
+}
