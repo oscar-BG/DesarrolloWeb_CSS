@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.contenedor{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+}
+div.flotado{
+    float: left;
+}
+div.visible{
+    overflow: auto;
+}
+div.hidden{
+    /*Propiedad oculta todo lo que sale del contenedor */
+    overflow: hidden;
+}
+div.scroll{
+    /*Propiedad coloca un scroll para verl los elemntos ocultos*/
+    overflow: scroll;
+    float: right;
+}
+div.auto{
+    /*Propiedad muestra un scroll es caso necesario*/
+    overflow: auto;
+    float: left;
+}
+div.x{
+    /*Propiedad asignada a solo un eje*/
+    overflow-x: hidden;
+    float: right;
+}
+div.titulo{
+    /* Limpiar los elementos flotantes */
+    clear: both;
+    margin-top: 150px;
+}
+

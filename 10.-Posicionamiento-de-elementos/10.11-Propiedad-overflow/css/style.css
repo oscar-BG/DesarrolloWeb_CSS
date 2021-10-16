@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.visible{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: 10px auto 100px auto;
+    /* Propiedad por defaul */
+    overflow: visible;
+}
+div.hidden{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    /*Propiedad oculta todo lo que sale del contenedor */
+    overflow: hidden;
+}
+div.scroll{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    /*Propiedad coloca un scroll para verl los elemntos ocultos*/
+    overflow: scroll;
+}
+div.auto{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    /*Propiedad muestra un scroll es caso necesario*/
+    overflow: auto;
+}
+div.x{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    /*Propiedad asignada a solo un eje*/
+    overflow-x: hidden;
+}
+

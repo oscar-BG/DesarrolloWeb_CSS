@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+/* Contenedor padre */
+header{
+    border: 1px solid black;
+    background-color: aqua;
+    position: relative; 
+}
+/* Contenedor hijo */
+span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: x-large;
+}
+nav{
+    position: sticky;
+    /* Para navegador mozilla */
+    position: -webkit-sticky;
+    top: 0;
+}
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+    margin: auto 10px auto 10px;
+}

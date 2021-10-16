@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.contenedor{
+    border: 3px dashed greenyellow;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    overflow: auto;
+}
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: larger;
+    background-color: #a8dadc;
+    border: 1px solid #457b9d;
+    height: 50px;
+    padding: 5px;
+    /* Al darle la propiedad inline-block el elemento puede obtener caracteristicas de un elemento en bloque, como en este caso la altura */
+    display: inline-block;
+}
+

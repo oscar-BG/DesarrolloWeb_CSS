@@ -1,0 +1,17 @@
+h1{
+    margin-bottom: 200px;
+    text-align: center;
+    color: crimson;
+}
+div{
+    position: fixed;
+    top: 0px;
+    left: 0px; 
+    border: 3px solid coral;
+}
+header{
+    width: 100%;
+    position: fixed;
+    height: 100px;
+    background-color: aqua;
+}
