@@ -1,0 +1,35 @@
+html{
+    height: auto;
+    min-height: 100%;
+}
+body{
+    /* background: linear-gradient(#f72585, #3a0ca3); */
+    /* Gradientes hacia la derecha */
+    /* background: linear-gradient(to right, #f72585, #3a0ca3); */
+
+    /* Varios colores */
+    /* background: linear-gradient(#24404d, #6bdff1, black); */
+
+    /* Hacia la derecha inferior */
+    /* background: linear-gradient(to bottom right, red, black); */
+    
+    /* Diagones */
+    /* background: linear-gradient(145deg, red, black); */
+
+    background: radial-gradient(circle, #0d47a1, #42a5f5);
+
+
+
+    color: #f1faee;
+}
+h1{
+    text-align: center;
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border:3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+}
