@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    text-size-adjust: 2px 2px 2px #a8dadc;
+    color: #e63046;
+}
+div.contenedor{
+    display: flex;
+    background: #560bad;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+
+    /* Adaptar a pantalla */
+    /* flex-wrap: wrap; */
+    /* Juntar dos propiedades de flex */
+    flex-flow: row wrap;
+}
+div.contenedor > p{
+    background-color: blue;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}

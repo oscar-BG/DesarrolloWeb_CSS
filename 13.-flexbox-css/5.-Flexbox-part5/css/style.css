@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    text-size-adjust: 2px 2px 2px #a8dadc;
+    color: #e63046;
+}
+div.contenedor{
+    display: flex;
+    background: #560bad;
+    flex-flow: row wrap;
+    height: 300px;
+    justify-content: center;
+    align-content: center;
+    
+}
+div.contenedor > p{
+    background-color: blue;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
